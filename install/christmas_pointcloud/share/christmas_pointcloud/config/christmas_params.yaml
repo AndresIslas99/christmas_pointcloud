@@ -1,0 +1,19 @@
+# Christmas Point Cloud Configuration
+# Adjust these parameters to customize your festive scene!
+
+christmas_cloud_publisher:
+  ros__parameters:
+    # Tree geometry
+    tree_height: 3.0          # Height of the tree in meters
+    tree_base_radius: 1.5     # Base radius of the tree cone
+    num_tree_points: 15000    # Density of tree foliage points
+    
+    # Decorations
+    num_ornaments: 50         # Number of colorful ornaments
+    
+    # Weather effects
+    num_snowflakes: 500       # Number of falling snowflakes
+    snowflake_area: 8.0       # Area covered by snowfall (meters)
+    
+    # Animation
+    animation_speed: 0.05     # Speed of animations (lights blinking, snow falling)

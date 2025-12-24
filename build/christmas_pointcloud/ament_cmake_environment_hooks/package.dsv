@@ -1,0 +1,4 @@
+source;share/christmas_pointcloud/local_setup.bash
+source;share/christmas_pointcloud/local_setup.dsv
+source;share/christmas_pointcloud/local_setup.sh
+source;share/christmas_pointcloud/local_setup.zsh

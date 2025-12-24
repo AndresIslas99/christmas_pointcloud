@@ -1,0 +1,150 @@
+[0.012s] Invoking command in '/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/build/christmas_pointcloud': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud -DCMAKE_INSTALL_PREFIX=/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud
+[0.033s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.217s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.329s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.389s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.396s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.408s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.425s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.447s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.505s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.510s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.632s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.667s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.717s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.730s] -- Looking for pthread.h
+[0.828s] -- Looking for pthread.h - found
+[0.828s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.917s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.918s] -- Found Threads: TRUE  
+[0.985s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.025s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.073s] -- Checking for module 'eigen3'
+[1.091s] --   Found eigen3, version 3.4.0
+[1.140s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.140s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.185s] -- Checking for module 'flann'
+[1.203s] --   Found flann, version 1.9.1
+[1.259s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.259s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.485s] -- Checking for module 'libusb-1.0'
+[2.504s] --   Found libusb-1.0, version 1.0.25
+[2.554s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.556s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.632s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.819s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.827s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.835s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.014s] -- Found Qhull version 8.0.2
+[3.202s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.373s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[3.383s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[3.384s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[3.385s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[3.386s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[3.387s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[3.388s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[3.388s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[3.389s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[3.390s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[3.391s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[3.393s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[3.394s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[3.395s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[3.396s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[3.397s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[3.398s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[3.399s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[3.400s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[3.401s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[3.402s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[3.402s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[3.403s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[3.404s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[3.405s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[3.409s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[3.453s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.454s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.455s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.572s] [33mCMake Warning (dev) at CMakeLists.txt:23 (find_package):
+[3.572s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[3.572s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[3.572s]   command to set the policy and suppress this warning.
+[3.572s] 
+[3.572s]   CMake variable PCL_ROOT is set to:
+[3.572s] 
+[3.572s]     /usr
+[3.572s] 
+[3.572s]   For compatibility, CMake is ignoring the variable.
+[3.572s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.572s] [0m
+[3.593s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.688s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.694s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.694s] -- Configured cppcheck include dirs: 
+[3.694s] -- Configured cppcheck exclude dirs and/or files: 
+[3.699s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.699s] -- Configured cpplint exclude dirs and/or files: 
+[3.700s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.702s] -- Added test 'lint_cmake' to check CMake code style
+[3.703s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.708s] -- Added test 'uncrustify' to check C / C++ code style
+[3.708s] -- Configured uncrustify additional arguments: 
+[3.709s] -- Added test 'xmllint' to check XML markup files
+[3.711s] -- Configuring done
+[3.778s] -- Generating done
+[3.788s] -- Build files have been written to: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/build/christmas_pointcloud
+[3.804s] Invoked command in '/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/build/christmas_pointcloud' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud -DCMAKE_INSTALL_PREFIX=/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud
+[3.807s] Invoking command in '/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/build/christmas_pointcloud': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/build/christmas_pointcloud -- -j32 -l32
+[3.876s] [ 50%] [32mBuilding CXX object CMakeFiles/christmas_cloud_node.dir/src/christmas_cloud_publisher.cpp.o[0m
+[8.944s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[8.944s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[8.944s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.944s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.944s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.944s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.944s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.944s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.944s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.944s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.944s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.944s]                  from [01m[K/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/src/christmas_cloud_publisher.cpp:15[m[K:
+[8.945s] [01m[K/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/src/christmas_cloud_publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[8.945s] [01m[K/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/src/christmas_cloud_publisher.cpp:465:37:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+[8.945s]   465 |     RCLCPP_INFO(node->get_logger(), [01;35m[K""[m[K);
+[8.945s]       |                                     [01;35m[K^~[m[K
+[8.946s] [01m[K/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/src/christmas_cloud_publisher.cpp:474:37:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+[8.946s]   474 |     RCLCPP_INFO(node->get_logger(), [01;35m[K""[m[K);
+[8.946s]       |                                     [01;35m[K^~[m[K
+[8.946s] [01m[K/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/src/christmas_cloud_publisher.cpp:477:37:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+[8.946s]   477 |     RCLCPP_INFO(node->get_logger(), [01;35m[K""[m[K);
+[8.946s]       |                                     [01;35m[K^~[m[K
+[11.550s] [100%] [32m[1mLinking CXX executable christmas_cloud_node[0m
+[12.179s] [100%] Built target christmas_cloud_node
+[12.192s] Invoked command in '/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/build/christmas_pointcloud' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/build/christmas_pointcloud -- -j32 -l32
+[12.205s] Invoking command in '/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/build/christmas_pointcloud': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/build/christmas_pointcloud
+[12.214s] -- Install configuration: ""
+[12.214s] -- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/lib/christmas_pointcloud/christmas_cloud_node
+[12.215s] -- Set runtime path of "/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/lib/christmas_pointcloud/christmas_cloud_node" to ""
+[12.215s] -- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/christmas_pointcloud/launch
+[12.215s] -- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/christmas_pointcloud/launch/christmas.launch.py
+[12.215s] -- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/christmas_pointcloud/rviz
+[12.215s] -- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/christmas_pointcloud/rviz/christmas.rviz
+[12.215s] -- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/christmas_pointcloud/config
+[12.215s] -- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/christmas_pointcloud/config/christmas_params.yaml
+[12.215s] -- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/ament_index/resource_index/package_run_dependencies/christmas_pointcloud
+[12.216s] -- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/ament_index/resource_index/parent_prefix_path/christmas_pointcloud
+[12.216s] -- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/christmas_pointcloud/environment/ament_prefix_path.sh
+[12.216s] -- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/christmas_pointcloud/environment/ament_prefix_path.dsv
+[12.216s] -- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/christmas_pointcloud/environment/path.sh
+[12.216s] -- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/christmas_pointcloud/environment/path.dsv
+[12.216s] -- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/christmas_pointcloud/local_setup.bash
+[12.216s] -- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/christmas_pointcloud/local_setup.sh
+[12.216s] -- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/christmas_pointcloud/local_setup.zsh
+[12.216s] -- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/christmas_pointcloud/local_setup.dsv
+[12.216s] -- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/christmas_pointcloud/package.dsv
+[12.216s] -- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/ament_index/resource_index/packages/christmas_pointcloud
+[12.216s] -- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/christmas_pointcloud/cmake/christmas_pointcloudConfig.cmake
+[12.216s] -- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/christmas_pointcloud/cmake/christmas_pointcloudConfig-version.cmake
+[12.216s] -- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/christmas_pointcloud/package.xml
+[12.219s] Invoked command in '/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/build/christmas_pointcloud' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/build/christmas_pointcloud

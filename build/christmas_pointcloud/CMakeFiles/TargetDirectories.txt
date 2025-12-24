@@ -1,0 +1,10 @@
+/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/build/christmas_pointcloud/CMakeFiles/uninstall.dir
+/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/build/christmas_pointcloud/CMakeFiles/christmas_pointcloud_uninstall.dir
+/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/build/christmas_pointcloud/CMakeFiles/christmas_cloud_node.dir
+/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/build/christmas_pointcloud/CMakeFiles/test.dir
+/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/build/christmas_pointcloud/CMakeFiles/edit_cache.dir
+/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/build/christmas_pointcloud/CMakeFiles/rebuild_cache.dir
+/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/build/christmas_pointcloud/CMakeFiles/list_install_components.dir
+/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/build/christmas_pointcloud/CMakeFiles/install.dir
+/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/build/christmas_pointcloud/CMakeFiles/install/local.dir
+/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/build/christmas_pointcloud/CMakeFiles/install/strip.dir

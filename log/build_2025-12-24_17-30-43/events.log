@@ -1,0 +1,280 @@
+[0.000000] (-) TimerEvent: {}
+[0.000401] (christmas_pointcloud) JobQueued: {'identifier': 'christmas_pointcloud', 'dependencies': OrderedDict()}
+[0.000711] (christmas_pointcloud) JobStarted: {'identifier': 'christmas_pointcloud'}
+[0.008996] (christmas_pointcloud) JobProgress: {'identifier': 'christmas_pointcloud', 'progress': 'cmake'}
+[0.009912] (christmas_pointcloud) Command: {'cmd': ['/usr/bin/cmake', '/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud', '-DCMAKE_INSTALL_PREFIX=/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud'], 'cwd': '/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/build/christmas_pointcloud', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'andres'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/usr/local/cuda-12.4/lib64'), ('HOME', '/home/andres'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('ROS_IP', '192.168.17.98'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2813'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=38b041f84845d9bc56c2b3566944687c'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'andres'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'andres'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/andres/bin:/usr/local/cuda-12.4/bin:/home/andres/.local/bin:/home/andres/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/andres-Legion-Pro-7-16IRX8H:@/tmp/.ICE-unix/2813,unix/andres-Legion-Pro-7-16IRX8H:/tmp/.ICE-unix/2813'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/etc/ros/fastrtps_discovery.yaml'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4863e14f_5111_4bb1_bae3_758293a5b950'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.07QMH3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.182'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/build/christmas_pointcloud'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=38b041f84845d9bc56c2b3566944687c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.033589] (christmas_pointcloud) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099129] (-) TimerEvent: {}
+[0.199383] (-) TimerEvent: {}
+[0.217949] (christmas_pointcloud) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.299550] (-) TimerEvent: {}
+[0.329577] (christmas_pointcloud) StdoutLine: {'line': b'-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.389873] (christmas_pointcloud) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.396439] (christmas_pointcloud) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.399634] (-) TimerEvent: {}
+[0.408868] (christmas_pointcloud) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.425222] (christmas_pointcloud) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.447518] (christmas_pointcloud) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.499794] (-) TimerEvent: {}
+[0.505678] (christmas_pointcloud) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.510187] (christmas_pointcloud) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.599904] (-) TimerEvent: {}
+[0.633050] (christmas_pointcloud) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.667632] (christmas_pointcloud) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.700073] (-) TimerEvent: {}
+[0.717681] (christmas_pointcloud) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.731079] (christmas_pointcloud) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.800181] (-) TimerEvent: {}
+[0.828825] (christmas_pointcloud) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.829021] (christmas_pointcloud) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.900383] (-) TimerEvent: {}
+[0.917801] (christmas_pointcloud) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.919074] (christmas_pointcloud) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.985508] (christmas_pointcloud) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.000547] (-) TimerEvent: {}
+[1.025162] (christmas_pointcloud) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[1.073114] (christmas_pointcloud) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[1.091501] (christmas_pointcloud) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[1.100725] (-) TimerEvent: {}
+[1.140122] (christmas_pointcloud) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[1.140332] (christmas_pointcloud) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.185160] (christmas_pointcloud) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[1.200899] (-) TimerEvent: {}
+[1.203332] (christmas_pointcloud) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[1.259571] (christmas_pointcloud) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[1.259855] (christmas_pointcloud) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[1.301129] (-) TimerEvent: {}
+[1.401622] (-) TimerEvent: {}
+[1.502114] (-) TimerEvent: {}
+[1.602518] (-) TimerEvent: {}
+[1.703011] (-) TimerEvent: {}
+[1.803519] (-) TimerEvent: {}
+[1.904000] (-) TimerEvent: {}
+[2.004535] (-) TimerEvent: {}
+[2.104954] (-) TimerEvent: {}
+[2.205405] (-) TimerEvent: {}
+[2.305853] (-) TimerEvent: {}
+[2.406349] (-) TimerEvent: {}
+[2.485425] (christmas_pointcloud) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[2.504849] (christmas_pointcloud) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[2.506423] (-) TimerEvent: {}
+[2.554833] (christmas_pointcloud) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[2.556261] (christmas_pointcloud) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.606543] (-) TimerEvent: {}
+[2.632560] (christmas_pointcloud) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.706657] (-) TimerEvent: {}
+[2.807013] (-) TimerEvent: {}
+[2.819538] (christmas_pointcloud) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.827758] (christmas_pointcloud) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.835840] (christmas_pointcloud) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.907231] (-) TimerEvent: {}
+[3.007711] (-) TimerEvent: {}
+[3.014936] (christmas_pointcloud) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[3.107948] (-) TimerEvent: {}
+[3.202777] (christmas_pointcloud) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.208171] (-) TimerEvent: {}
+[3.308673] (-) TimerEvent: {}
+[3.373083] (christmas_pointcloud) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[3.383636] (christmas_pointcloud) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[3.384906] (christmas_pointcloud) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[3.385949] (christmas_pointcloud) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[3.386907] (christmas_pointcloud) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[3.387890] (christmas_pointcloud) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[3.388295] (christmas_pointcloud) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[3.388947] (christmas_pointcloud) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[3.389791] (christmas_pointcloud) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[3.390928] (christmas_pointcloud) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[3.391912] (christmas_pointcloud) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[3.393178] (christmas_pointcloud) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[3.394305] (christmas_pointcloud) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[3.395389] (christmas_pointcloud) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[3.396469] (christmas_pointcloud) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[3.397498] (christmas_pointcloud) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[3.398616] (christmas_pointcloud) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[3.399588] (christmas_pointcloud) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[3.400698] (christmas_pointcloud) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[3.401676] (christmas_pointcloud) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[3.402456] (christmas_pointcloud) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[3.402826] (christmas_pointcloud) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[3.403459] (christmas_pointcloud) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[3.404435] (christmas_pointcloud) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[3.405580] (christmas_pointcloud) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[3.408871] (-) TimerEvent: {}
+[3.409156] (christmas_pointcloud) StdoutLine: {'line': b'-- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)\n'}
+[3.453272] (christmas_pointcloud) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[3.455086] (christmas_pointcloud) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[3.455245] (christmas_pointcloud) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[3.509030] (-) TimerEvent: {}
+[3.572427] (christmas_pointcloud) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:23 (find_package):\n'}
+[3.572604] (christmas_pointcloud) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[3.572667] (christmas_pointcloud) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[3.572716] (christmas_pointcloud) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[3.572762] (christmas_pointcloud) StderrLine: {'line': b'\n'}
+[3.572806] (christmas_pointcloud) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[3.572849] (christmas_pointcloud) StderrLine: {'line': b'\n'}
+[3.572891] (christmas_pointcloud) StderrLine: {'line': b'    /usr\n'}
+[3.572932] (christmas_pointcloud) StderrLine: {'line': b'\n'}
+[3.572973] (christmas_pointcloud) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[3.573015] (christmas_pointcloud) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[3.573058] (christmas_pointcloud) StderrLine: {'line': b'\x1b[0m\n'}
+[3.593586] (christmas_pointcloud) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.609202] (-) TimerEvent: {}
+[3.688903] (christmas_pointcloud) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.694237] (christmas_pointcloud) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.694539] (christmas_pointcloud) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.694669] (christmas_pointcloud) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.699587] (christmas_pointcloud) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.699726] (christmas_pointcloud) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.700946] (christmas_pointcloud) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.702474] (christmas_pointcloud) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.703588] (christmas_pointcloud) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.708650] (christmas_pointcloud) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.708791] (christmas_pointcloud) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.709229] (-) TimerEvent: {}
+[3.709824] (christmas_pointcloud) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.711189] (christmas_pointcloud) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.778432] (christmas_pointcloud) StdoutLine: {'line': b'-- Generating done\n'}
+[3.789119] (christmas_pointcloud) StdoutLine: {'line': b'-- Build files have been written to: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/build/christmas_pointcloud\n'}
+[3.804637] (christmas_pointcloud) CommandEnded: {'returncode': 0}
+[3.807244] (christmas_pointcloud) JobProgress: {'identifier': 'christmas_pointcloud', 'progress': 'build'}
+[3.807305] (christmas_pointcloud) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/build/christmas_pointcloud', '--', '-j32', '-l32'], 'cwd': '/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/build/christmas_pointcloud', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'andres'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/usr/local/cuda-12.4/lib64'), ('HOME', '/home/andres'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('ROS_IP', '192.168.17.98'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2813'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=38b041f84845d9bc56c2b3566944687c'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'andres'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'andres'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/andres/bin:/usr/local/cuda-12.4/bin:/home/andres/.local/bin:/home/andres/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/andres-Legion-Pro-7-16IRX8H:@/tmp/.ICE-unix/2813,unix/andres-Legion-Pro-7-16IRX8H:/tmp/.ICE-unix/2813'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/etc/ros/fastrtps_discovery.yaml'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4863e14f_5111_4bb1_bae3_758293a5b950'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.07QMH3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.182'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/build/christmas_pointcloud'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=38b041f84845d9bc56c2b3566944687c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.809358] (-) TimerEvent: {}
+[3.876603] (christmas_pointcloud) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/christmas_cloud_node.dir/src/christmas_cloud_publisher.cpp.o\x1b[0m\n'}
+[3.909469] (-) TimerEvent: {}
+[4.009869] (-) TimerEvent: {}
+[4.110251] (-) TimerEvent: {}
+[4.210527] (-) TimerEvent: {}
+[4.310842] (-) TimerEvent: {}
+[4.411333] (-) TimerEvent: {}
+[4.511747] (-) TimerEvent: {}
+[4.612119] (-) TimerEvent: {}
+[4.712426] (-) TimerEvent: {}
+[4.812727] (-) TimerEvent: {}
+[4.913068] (-) TimerEvent: {}
+[5.013422] (-) TimerEvent: {}
+[5.113705] (-) TimerEvent: {}
+[5.214081] (-) TimerEvent: {}
+[5.314417] (-) TimerEvent: {}
+[5.414786] (-) TimerEvent: {}
+[5.515159] (-) TimerEvent: {}
+[5.615435] (-) TimerEvent: {}
+[5.715730] (-) TimerEvent: {}
+[5.816105] (-) TimerEvent: {}
+[5.916497] (-) TimerEvent: {}
+[6.016883] (-) TimerEvent: {}
+[6.117266] (-) TimerEvent: {}
+[6.217641] (-) TimerEvent: {}
+[6.318014] (-) TimerEvent: {}
+[6.418370] (-) TimerEvent: {}
+[6.518740] (-) TimerEvent: {}
+[6.619119] (-) TimerEvent: {}
+[6.719508] (-) TimerEvent: {}
+[6.819893] (-) TimerEvent: {}
+[6.920287] (-) TimerEvent: {}
+[7.020667] (-) TimerEvent: {}
+[7.121048] (-) TimerEvent: {}
+[7.221444] (-) TimerEvent: {}
+[7.321814] (-) TimerEvent: {}
+[7.422202] (-) TimerEvent: {}
+[7.522751] (-) TimerEvent: {}
+[7.623152] (-) TimerEvent: {}
+[7.723544] (-) TimerEvent: {}
+[7.823916] (-) TimerEvent: {}
+[7.924296] (-) TimerEvent: {}
+[8.024665] (-) TimerEvent: {}
+[8.124966] (-) TimerEvent: {}
+[8.225336] (-) TimerEvent: {}
+[8.325730] (-) TimerEvent: {}
+[8.426164] (-) TimerEvent: {}
+[8.526590] (-) TimerEvent: {}
+[8.626953] (-) TimerEvent: {}
+[8.727332] (-) TimerEvent: {}
+[8.827738] (-) TimerEvent: {}
+[8.928193] (-) TimerEvent: {}
+[8.944457] (christmas_pointcloud) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[8.944664] (christmas_pointcloud) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[8.944728] (christmas_pointcloud) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[8.944795] (christmas_pointcloud) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[8.944847] (christmas_pointcloud) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[8.944895] (christmas_pointcloud) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[8.944942] (christmas_pointcloud) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[8.944987] (christmas_pointcloud) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[8.945034] (christmas_pointcloud) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[8.945080] (christmas_pointcloud) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.945125] (christmas_pointcloud) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.945168] (christmas_pointcloud) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/src/christmas_cloud_publisher.cpp:15\x1b[m\x1b[K:\n'}
+[8.945225] (christmas_pointcloud) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/src/christmas_cloud_publisher.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.945280] (christmas_pointcloud) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/src/christmas_cloud_publisher.cpp:465:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kzero-length gnu_printf format string [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length\x07-Wformat-zero-length\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.945329] (christmas_pointcloud) StderrLine: {'line': b'  465 |     RCLCPP_INFO(node->get_logger(), \x1b[01;35m\x1b[K""\x1b[m\x1b[K);\n'}
+[8.945373] (christmas_pointcloud) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[8.946379] (christmas_pointcloud) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/src/christmas_cloud_publisher.cpp:474:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kzero-length gnu_printf format string [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length\x07-Wformat-zero-length\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.946525] (christmas_pointcloud) StderrLine: {'line': b'  474 |     RCLCPP_INFO(node->get_logger(), \x1b[01;35m\x1b[K""\x1b[m\x1b[K);\n'}
+[8.946585] (christmas_pointcloud) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[8.946885] (christmas_pointcloud) StderrLine: {'line': b'\x1b[01m\x1b[K/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/src/christmas_cloud_publisher.cpp:477:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kzero-length gnu_printf format string [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length\x07-Wformat-zero-length\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.947020] (christmas_pointcloud) StderrLine: {'line': b'  477 |     RCLCPP_INFO(node->get_logger(), \x1b[01;35m\x1b[K""\x1b[m\x1b[K);\n'}
+[8.947082] (christmas_pointcloud) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.028387] (-) TimerEvent: {}
+[9.128772] (-) TimerEvent: {}
+[9.229154] (-) TimerEvent: {}
+[9.329559] (-) TimerEvent: {}
+[9.429970] (-) TimerEvent: {}
+[9.530353] (-) TimerEvent: {}
+[9.630694] (-) TimerEvent: {}
+[9.731075] (-) TimerEvent: {}
+[9.831510] (-) TimerEvent: {}
+[9.931900] (-) TimerEvent: {}
+[10.032323] (-) TimerEvent: {}
+[10.132724] (-) TimerEvent: {}
+[10.233126] (-) TimerEvent: {}
+[10.333479] (-) TimerEvent: {}
+[10.433850] (-) TimerEvent: {}
+[10.534158] (-) TimerEvent: {}
+[10.634702] (-) TimerEvent: {}
+[10.735233] (-) TimerEvent: {}
+[10.835765] (-) TimerEvent: {}
+[10.936302] (-) TimerEvent: {}
+[11.036808] (-) TimerEvent: {}
+[11.137325] (-) TimerEvent: {}
+[11.237835] (-) TimerEvent: {}
+[11.338365] (-) TimerEvent: {}
+[11.438822] (-) TimerEvent: {}
+[11.539334] (-) TimerEvent: {}
+[11.550472] (christmas_pointcloud) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable christmas_cloud_node\x1b[0m\n'}
+[11.639466] (-) TimerEvent: {}
+[11.739993] (-) TimerEvent: {}
+[11.840657] (-) TimerEvent: {}
+[11.941104] (-) TimerEvent: {}
+[12.041402] (-) TimerEvent: {}
+[12.141729] (-) TimerEvent: {}
+[12.179541] (christmas_pointcloud) StdoutLine: {'line': b'[100%] Built target christmas_cloud_node\n'}
+[12.192605] (christmas_pointcloud) CommandEnded: {'returncode': 0}
+[12.194167] (christmas_pointcloud) JobProgress: {'identifier': 'christmas_pointcloud', 'progress': 'install'}
+[12.205234] (christmas_pointcloud) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/build/christmas_pointcloud'], 'cwd': '/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/build/christmas_pointcloud', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'andres'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/usr/local/cuda-12.4/lib64'), ('HOME', '/home/andres'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('ROS_IP', '192.168.17.98'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2813'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=38b041f84845d9bc56c2b3566944687c'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'andres'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'andres'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/andres/bin:/usr/local/cuda-12.4/bin:/home/andres/.local/bin:/home/andres/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/andres-Legion-Pro-7-16IRX8H:@/tmp/.ICE-unix/2813,unix/andres-Legion-Pro-7-16IRX8H:/tmp/.ICE-unix/2813'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/etc/ros/fastrtps_discovery.yaml'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4863e14f_5111_4bb1_bae3_758293a5b950'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.07QMH3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.182'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/build/christmas_pointcloud'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=38b041f84845d9bc56c2b3566944687c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[12.214165] (christmas_pointcloud) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.214323] (christmas_pointcloud) StdoutLine: {'line': b'-- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/lib/christmas_pointcloud/christmas_cloud_node\n'}
+[12.215394] (christmas_pointcloud) StdoutLine: {'line': b'-- Set runtime path of "/home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/lib/christmas_pointcloud/christmas_cloud_node" to ""\n'}
+[12.215530] (christmas_pointcloud) StdoutLine: {'line': b'-- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/christmas_pointcloud/launch\n'}
+[12.215596] (christmas_pointcloud) StdoutLine: {'line': b'-- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/christmas_pointcloud/launch/christmas.launch.py\n'}
+[12.215869] (christmas_pointcloud) StdoutLine: {'line': b'-- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/christmas_pointcloud/rviz\n'}
+[12.215973] (christmas_pointcloud) StdoutLine: {'line': b'-- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/christmas_pointcloud/rviz/christmas.rviz\n'}
+[12.216032] (christmas_pointcloud) StdoutLine: {'line': b'-- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/christmas_pointcloud/config\n'}
+[12.216086] (christmas_pointcloud) StdoutLine: {'line': b'-- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/christmas_pointcloud/config/christmas_params.yaml\n'}
+[12.216141] (christmas_pointcloud) StdoutLine: {'line': b'-- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/ament_index/resource_index/package_run_dependencies/christmas_pointcloud\n'}
+[12.216195] (christmas_pointcloud) StdoutLine: {'line': b'-- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/ament_index/resource_index/parent_prefix_path/christmas_pointcloud\n'}
+[12.216300] (christmas_pointcloud) StdoutLine: {'line': b'-- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/christmas_pointcloud/environment/ament_prefix_path.sh\n'}
+[12.216358] (christmas_pointcloud) StdoutLine: {'line': b'-- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/christmas_pointcloud/environment/ament_prefix_path.dsv\n'}
+[12.216409] (christmas_pointcloud) StdoutLine: {'line': b'-- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/christmas_pointcloud/environment/path.sh\n'}
+[12.216461] (christmas_pointcloud) StdoutLine: {'line': b'-- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/christmas_pointcloud/environment/path.dsv\n'}
+[12.216510] (christmas_pointcloud) StdoutLine: {'line': b'-- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/christmas_pointcloud/local_setup.bash\n'}
+[12.216605] (christmas_pointcloud) StdoutLine: {'line': b'-- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/christmas_pointcloud/local_setup.sh\n'}
+[12.216654] (christmas_pointcloud) StdoutLine: {'line': b'-- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/christmas_pointcloud/local_setup.zsh\n'}
+[12.216705] (christmas_pointcloud) StdoutLine: {'line': b'-- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/christmas_pointcloud/local_setup.dsv\n'}
+[12.216755] (christmas_pointcloud) StdoutLine: {'line': b'-- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/christmas_pointcloud/package.dsv\n'}
+[12.216839] (christmas_pointcloud) StdoutLine: {'line': b'-- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/ament_index/resource_index/packages/christmas_pointcloud\n'}
+[12.216892] (christmas_pointcloud) StdoutLine: {'line': b'-- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/christmas_pointcloud/cmake/christmas_pointcloudConfig.cmake\n'}
+[12.216966] (christmas_pointcloud) StdoutLine: {'line': b'-- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/christmas_pointcloud/cmake/christmas_pointcloudConfig-version.cmake\n'}
+[12.217015] (christmas_pointcloud) StdoutLine: {'line': b'-- Installing: /home/andres/Documents/PersonalRepo/ChristmasCode/christmas_pointcloud/install/christmas_pointcloud/share/christmas_pointcloud/package.xml\n'}
+[12.219635] (christmas_pointcloud) CommandEnded: {'returncode': 0}
+[12.241896] (-) TimerEvent: {}
+[12.242934] (christmas_pointcloud) JobEnded: {'identifier': 'christmas_pointcloud', 'rc': 0}
+[12.243778] (-) EventReactorShutdown: {}
