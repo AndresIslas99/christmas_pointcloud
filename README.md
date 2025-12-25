@@ -4,6 +4,7 @@ A festive ROS2 package that generates animated Christmas-themed LiDAR-style poin
 
 ![ROS2](https://img.shields.io/badge/ROS2-Humble%20%7C%20Iron%20%7C%20Jazzy-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
+![Christmas Pointcloud Demo](demo/screencast.gif)
 
 ## ✨ Features
 
